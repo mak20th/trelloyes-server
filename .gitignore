@@ -1,0 +1,6 @@
+node_modules
+.env
+
+# no When deployed, we would look in the log files like this to see if errors had occurred on the production application. 
+# However, we don't want these errors to pollute the GitHub repository. So we can tell git to ignore all files with the .log extension.
+*.log
